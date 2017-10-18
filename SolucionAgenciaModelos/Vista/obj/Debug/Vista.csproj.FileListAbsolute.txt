@@ -29,3 +29,26 @@ C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Vista\obj\Debug\Vist
 C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
 C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Vista\obj\Debug\Vista.exe
 C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Vista\obj\Debug\Vista.pdb
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\Vista.exe.config
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\Vista.exe
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\Vista.pdb
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\Biblioteca de Clases.dll
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\EntityFramework.dll
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\Biblioteca de Clases.pdb
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\Biblioteca de Clases.dll.config
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\EntityFramework.xml
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.AdministracionCitas.resources
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.CreateCita.resources
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.EditarCita.resources
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.AdministracionModelos.resources
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.CreateModelo.resources
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.EditarModelo.resources
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.frmLogin.resources
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.exe
+C:\Users\PC-Cristopher\Desktop\Op C#\opC-primeraEvaluacion\SolucionAgenciaModelos\Vista\obj\Debug\Vista.pdb
