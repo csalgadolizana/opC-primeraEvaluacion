@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AgenciaModelModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cita">
+    <Key>
+      <PropertyRef Name="numero_cita" />
+      <PropertyRef Name="modelo" />
+    </Key>
+    <Property Name="numero_cita" Type="int" Nullable="false" />
+    <Property Name="cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="modelo" Type="int" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="nombre_evento" Type="nvarchar" MaxLength="50" />
+    <Property Name="valor_dia_modelo" Type="int" />
+  </EntityType>
+  <EntityType Name="modelo">
+    <Key>
+      <PropertyRef Name="codigo_unico" />
+    </Key>
+    <Property Name="codigo_unico" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellido_paterno" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellido_materno" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="sexo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="color_ojos" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tez" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="medidas_anatomicas" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="observaciones" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="foto" Type="nvarchar" MaxLength="500" />
+    <Property Name="fecha_nacimiento" Type="datetime" Nullable="false" />
+    <Property Name="estaActivo" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tipoUsuario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="userName" />
+    </Key>
+    <Property Name="userName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tipoUsuario" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_cita_modelo">
+    <End Role="modelo" Type="Self.modelo" Multiplicity="1" />
+    <End Role="cita" Type="Self.cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="modelo">
+        <PropertyRef Name="codigo_unico" />
+      </Principal>
+      <Dependent Role="cita">
+        <PropertyRef Name="modelo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_tipoUsuario">
+    <End Role="tipoUsuario" Type="Self.tipoUsuario" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipoUsuario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="tipoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AgenciaModelModelStoreContainer">
+    <EntitySet Name="cita" EntityType="Self.cita" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="modelo" EntityType="Self.modelo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tipoUsuario" EntityType="Self.tipoUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_cita_modelo" Association="Self.FK_cita_modelo">
+      <End Role="modelo" EntitySet="modelo" />
+      <End Role="cita" EntitySet="cita" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_tipoUsuario" Association="Self.FK_Usuario_tipoUsuario">
+      <End Role="tipoUsuario" EntitySet="tipoUsuario" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

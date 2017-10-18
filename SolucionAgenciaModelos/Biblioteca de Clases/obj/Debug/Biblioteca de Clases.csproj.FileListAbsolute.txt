@@ -1,0 +1,9 @@
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\bin\Debug\Biblioteca de Clases.dll.config
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\bin\Debug\Biblioteca de Clases.dll
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\bin\Debug\Biblioteca de Clases.pdb
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\bin\Debug\EntityFramework.dll
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\bin\Debug\EntityFramework.xml
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csprojResolveAssemblyReference.cache
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csproj.CoreCompileInputs.cache
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.dll
+C:\Users\PC-Cristopher\Desktop\Op C#\SolucionAgenciaModelos\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.pdb
