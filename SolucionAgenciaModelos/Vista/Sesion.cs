@@ -12,7 +12,5 @@ namespace Vista
         public static string pass;
         public static int Tipo;
         public static string descripcion;
-
-
     }
 }
